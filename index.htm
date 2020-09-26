@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        body{
+            background: #efefef;
+    
+        }
+        h1{
+            text-align: center;
+            margin: 20px;
+            font-size: 40px;
+            text-transform: uppercase;
+            background: url(image/images.jpg);
+            color: rgba(255, 255, 255, .1);
+            font-weight: 900;
+           -webkit-background-clip:text;
+           animation-name: ajoy;
+           animation-duration: .5s;  
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;
+        }
+        @keyframes ajoy{
+            0%{background-position: top 0 left 0;}
+            100%{background-position: top 0 left 300px;}
+        }
+
+    </style>
+</head>
+<body>
+    <h1>i love u dipa</h1>
+</body>
+</html>
